@@ -59,13 +59,57 @@ rightArrow.innerHTML=`>`;
 rightArrow.className='rightArrow';
 document.querySelector('gallary > .arrow').append(rightArrow);
 const siteCondition={};
-siteCondition.number=+0;
+// siteCondition.number==7;
+let countNumber=+0;
+
 document.querySelector('.leftArrow').addEventListener('click',()=>{
-    siteCondition.number--;
-    document.querySelector('gallary > picture > img').setAttribyte('src','');
-    if(countPhoto[siteCondition.number]!==undefined&&countPhoto[siteCondition.number]!==null){
-        countPhoto[siteCondition.number].style.display='block';
-    }else{
-        console.log(countPhoto[7].src +' !!!')
-    }
+console.log(countNumber+ " " + countPhoto.length);
+        if(countNumber>0){
+            if(countPhoto.length!==undefined){
+                countPhoto[countNumber].style.display="none";
+                countNumber--;
+                countPhoto[countNumber].style.display="block";
+            }else{
+                countPhoto[countNumber].style.display="none";
+                countNumber--;
+                countPhoto[countNumber].style.display="block";
+            }
+        console.log(countPhoto[countNumber]);
+        }else if(countNumber==countPhoto.length){
+            countPhoto[countNumber].style.display="none";
+            countNumber--;
+            countPhoto[countNumber].style.display='block';
+        }else if(countNumber===0){
+            countPhoto[countNumber].style.display="none";
+            countNumber=countPhoto.length-1;// it's very important number because something don't woking
+            countPhoto[countNumber].style.display='block';
+        }else{
+            countPhoto[countNumber].style.display="none";
+            // countNumber=countPhoto.length;
+            countPhoto[countNumber].style.display='block';
+            console.log('countNumber is null');
+        }
+    
+    
 });
+document.querySelector('.rightArrow').addEventListener('click',()=>{
+    console.log(countNumber+ " " + countPhoto.length);
+    
+        if(countNumber<countPhoto.length-1){
+            if(countPhoto.length!==undefined){
+            countPhoto[countNumber].style.display="none";
+            countNumber++;
+        }
+        console.log(countPhoto[countNumber]);
+        document.querySelectorAll('gallary > picture > img')[countNumber].style.display="block";
+        }else if(countNumber>=countPhoto.length){
+            countNumber=0;
+        }else{
+            countPhoto[countNumber].style.display="none";
+            countNumber=0;
+            countPhoto[countNumber].style.display='block';
+            console.log('countNumber is null');
+        }
+        
+        
+    });
