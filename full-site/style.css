@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: aquamarine;
+}
+
+body > main > gallary > picture > img{
+    width:100%;
+    max-width: 1300px;
+}
+body > main > gallary{
+    width:100%;
+    max-width:1300px;
+    position: absolute;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.arrow{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+.leftArrow,.rightArrow{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:50%;
+    background:rgba(255,255,255,0.3);
+    width:70px;
+    height:70px;
+    border-radius: 100%;
+    &:hover{
+        background-color: rgba(255,255,255,0.7);
+        color:grey;
+    }
+}
