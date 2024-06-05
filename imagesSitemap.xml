@@ -2,36 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://qucu.ru/</loc>
+    <loc>https://amir248.github.io/correct-photo-gallary/#correct-photo-gallary-in-js-one</loc>
     <image:image>
-      <image:loc>https://qucu.ru/img/correctPhotoGallary/DSC_8196.JPG</image:loc>
+      <image:loc>https://amir248.github.io/correct-photo-gallary/img/correctPhotoGallary/DSC_8196.JPG</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>https://amir248.github.io/correct-photo-gallary/#correct-photo-gallary-in-js-two</loc>
     <image:image>
-      <image:loc>https://qucu.ru/img/correctPhotoGallary/DSC_8197.JPG</image:loc>
+      <image:loc>https://amir248.github.io/correct-photo-gallary/img/correctPhotoGallary/DSC_8197.JPG</image:loc>
     </image:image>
+  </url>
+  <url>
+  <loc>https://amir248.github.io/correct-photo-gallary/#correct-photo-gallary-in-js-three</loc>
     <image:image>
-      <image:loc>https://qucu.ru/img/correctPhotoGallary/DSC_8198.JPG</image:loc>
+      <image:loc>https://amir248.github.io/correct-photo-gallary/img/correctPhotoGallary/DSC_8198.JPG</image:loc>
     </image:image>
+  </url>
+  <url>
+  <loc>https://amir248.github.io/correct-photo-gallary/#correct-photo-gallary-in-js-four</loc>
     <image:image>
-      <image:loc>https://qucu.ru/img/correctPhotoGallary/DSC_8199.JPG</image:loc>
+      <image:loc>https://amir248.github.io/correct-photo-gallary/img/correctPhotoGallary/DSC_8199.JPG</image:loc>
     </image:image>
+  </url>
+  <url>
+  <loc>https://amir248.github.io/correct-photo-gallary/#correct-photo-gallary-in-js-five</loc>
     <image:image>
-      <image:loc>https://qucu.ru/img/correctPhotoGallary/DSC_8200.JPG</image:loc>
+      <image:loc>https://amir248.github.io/correct-photo-gallary/img/correctPhotoGallary/DSC_8200.JPG</image:loc>
     </image:image>
+  </url>
+  <url>
+  <loc>https://amir248.github.io/correct-photo-gallary/#correct-photo-gallary-in-js-six</loc>
     <image:image>
-      <image:loc>https://qucu.ru/img/correctPhotoGallary/DSC_8201.JPG</image:loc>
+      <image:loc>https://amir248.github.io/correct-photo-gallary/img/correctPhotoGallary/DSC_8201.JPG</image:loc>
     </image:image>
+  </url>
+  <url>
+  <loc>https://amir248.github.io/correct-photo-gallary/#correct-photo-gallary-in-js-sever</loc>
     <image:image>
-      <image:loc>https://qucu.ru/img/correctPhotoGallary/DSC_8202.JPG</image:loc>
+      <image:loc>https://amir248.github.io/correct-photo-gallary/img/correctPhotoGallary/DSC_8202.JPG</image:loc>
     </image:image>
+  </url>
+  <url>
+  <loc>https://amir248.github.io/correct-photo-gallary/#correct-photo-gallary-in-js-eight</loc>
     <image:image>
-      <image:loc>https://qucu.ru/img/correctPhotoGallary/DSC_8203.JPG</image:loc>
+      <image:loc>https://amir248.github.io/correct-photo-gallary/img/correctPhotoGallary/DSC_8203.JPG</image:loc>
     </image:image>
+  </url>
+  <url>
+  <loc>https://amir248.github.io/correct-photo-gallary/#correct-photo-gallary-in-js-nine</loc>
     <image:image>
-      <image:loc>https://qucu.ru/img/correctPhotoGallary/DSC_8204.JPG</image:loc>
+      <image:loc>https://amir248.github.io/correct-photo-gallary/img/correctPhotoGallary/DSC_8204.JPG</image:loc>
     </image:image>
+  </url>
+  <url>
+  <loc>https://amir248.github.io/correct-photo-gallary/#it's-Amir-web-developer-and-great-programmer</loc>
     <image:image>
-      <image:loc>https://qucu.ru/img/correctPhotoGallary/DSC_8457.JPG</image:loc>
+      <image:loc>https://amir248.github.io/correct-photo-gallary/img/correctPhotoGallary/DSC_8457.JPG</image:loc>
     </image:image>
   </url>
 </urlset>
