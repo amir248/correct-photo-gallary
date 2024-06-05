@@ -146,7 +146,7 @@ function listLeftArrow(){
   }
 };//leftArrow
 function openImgToHash(){
-  console.log('oK');
+//   console.log('oK');
     for(let y=0;y<countPhoto.length;y++){
       // countPhoto[y].alt;
       if(window.location.hash=="#"+countPhoto[y].alt){
@@ -155,9 +155,7 @@ function openImgToHash(){
             countNumber=y;
             countPhoto[countNumber].style.display="block";
             // seeAltUrlHash();
-            console.log(countNumber+"-_-"+window.location.hash);
-            console.log(countPhoto.length);
-            console.log(countPhoto[y])
+         
         }
         // listLeftArrow();
         // console.log(window.location.hash);
