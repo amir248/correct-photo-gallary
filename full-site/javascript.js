@@ -87,6 +87,7 @@ if(countPhoto!==null&&countPhoto!==undefined){
             countPhoto[number].style.display="none";
         }
     }
+    // document.querySelector('gallary > picture').style.marginRight="700px";
 }else{
     console.log('else');
 }
